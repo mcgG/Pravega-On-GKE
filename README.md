@@ -1,4 +1,4 @@
-# GKE
+# Pravega on GKE
 
 1. Go to GKE console and choose `Create Cluster` 
    > To run both parvega and prevega serach cluster, it is recommended to create a 6 nodes, 1vCPU for each node \( memory in total\) clsuter, you can expand the resource anytime if you met with _unschedulable issue._
@@ -14,6 +14,7 @@
    ![](/assets/connect3.png)
 
 6. Install `kubectl` with `gcloud components install kubectl`
+
 7. Check physical nodes in your cluster
 
    ```bash
