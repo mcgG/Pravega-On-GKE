@@ -10,8 +10,10 @@
    ![](/assets/connect2.png)
 5. As shown
    ![](/assets/connect3.png)
-6. Check physical nodes in your cluster
-   1. ```bash
+6. Install `kubectl` with `gcloud components install kubectl`
+7. Check physical nodes in your cluster
+      ```bash
+   
       > Kubectl get nodes
 
       # Example output
@@ -22,21 +24,10 @@
       # gke-cluster-1-default-pool-73bd74ac-m7x0   Ready     <none>    25m       v1.9.7-gke.5
       # gke-cluster-1-default-pool-73bd74ac-q2h1   Ready     <none>    25m       v1.9.7-gke.5
       # gke-cluster-1-default-pool-73bd74ac-vlgb   Ready     <none>    25m       v1.9.7-gke.5
+      
       ```
-7. sdfgsdfgsdfgdfg
-8. sfdgsdfgsdfgsdfg
-9. sfdgsdfgsdfg
-10. sfdgsfdgsdfg
-11. sfdgsdfgsdfg
-12. sdfgsdfgsdfgsdfg
-13. fdsgsdfgsdfgsfg
-14. sdfgsdfgsfdgd
-15. sfdgsdfgsdfg
-16. sdfgsdfgsfdg
-17. sdgfsdfgsdfg
-18. fdsgsfdgsfdg
-19. dsfgsdgfd
-20. 
+8. To deploy pravega-cluster please refer to [this](https://github.com/pravega/pravega-operator)
+9. To deploy pravega-search-operator please refer to [this](https://asdstash.isus.emc.com/projects/NAUT/repos/platform/browse/go/pravega-search-operator?at=refs%2Fheads%2Ffeature-pravega-search-operator)
 
 
 
