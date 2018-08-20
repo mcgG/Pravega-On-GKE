@@ -15,7 +15,17 @@
 
 6. Install `kubectl` with `gcloud components install kubectl`
 
-7. Check physical nodes in your cluster
+7. Install `Helm` on GKE
+
+   1. ```bash
+      # helm config
+      > helm init
+      > kubectl create serviceaccount --namespace kube-system tiller
+      > kubectl create clusterrolebinding tiller-cluster-rule --clusterrole=cluster-admin --serviceaccount=kube-system:tiller
+      > kubectl patch deploy --namespace kube-system tiller-deploy -p '{"spec":{"template":{"spec":{"serviceAccount":"tiller"}}}}'
+      ```
+
+8. Check physical nodes in your cluster
 
    ```bash
       > Kubectl get nodes
@@ -30,9 +40,9 @@
       # gke-cluster-1-default-pool-73bd74ac-vlgb   Ready     <none>    25m       v1.9.7-gke.5
    ```
 
-8. To deploy pravega-cluster please refer to [pravega-operator](https://github.com/pravega/pravega-operator)
+9. To deploy pravega-cluster please refer to [pravega-operator](https://github.com/pravega/pravega-operator)
 
-9. To deploy pravega-search-operator please refer to [pravega-search-operator](https://asdstash.isus.emc.com/projects/NAUT/repos/platform/browse/go/pravega-search-operator/src/dellemc.com/pravega-search-operator?at=feature-pravega-search-operator)
+10. To deploy pravega-search-operator please refer to [pravega-search-operator](https://asdstash.isus.emc.com/projects/NAUT/repos/platform/browse/go/pravega-search-operator/src/dellemc.com/pravega-search-operator?at=feature-pravega-search-operator)
 
 
 
