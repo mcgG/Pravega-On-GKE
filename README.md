@@ -30,9 +30,9 @@
       # gke-cluster-1-default-pool-73bd74ac-vlgb   Ready     <none>    25m       v1.9.7-gke.5
    ```
 
-8. To deploy pravega-cluster please refer to [this](https://github.com/pravega/pravega-operator)
+8. To deploy pravega-cluster please refer to [pravega-operator](https://github.com/pravega/pravega-operator)
 
-9. To deploy pravega-search-operator please refer to [this](https://asdstash.isus.emc.com/projects/NAUT/repos/platform/browse/go/pravega-search-operator/src/dellemc.com/pravega-search-operator/README.md?at=refs%2Fheads%2Ffeature-pravega-search-operator)
+9. To deploy pravega-search-operator please refer to [pravega-search-operator](https://asdstash.isus.emc.com/projects/NAUT/repos/platform/browse/go/pravega-search-operator/src/dellemc.com/pravega-search-operator?at=feature-pravega-search-operator)
 
 
 
