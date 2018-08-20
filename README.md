@@ -32,7 +32,7 @@
 
 8. To deploy pravega-cluster please refer to [this](https://github.com/pravega/pravega-operator)
 
-9. To deploy pravega-search-operator please refer to [this](https://asdstash.isus.emc.com/projects/NAUT/repos/platform/browse/go/pravega-search-operator?at=refs%2Fheads%2Ffeature-pravega-search-operator)
+9. To deploy pravega-search-operator please refer to [this](https://asdstash.isus.emc.com/projects/NAUT/repos/platform/browse/go/pravega-search-operator/src/dellemc.com/pravega-search-operator/README.md?at=refs%2Fheads%2Ffeature-pravega-search-operator)
 
 
 
