@@ -17,7 +17,7 @@
 
 7. Install `Helm` on GKE
 
-   1. ```bash
+      ```bash
       # helm config
       > helm init
       > kubectl create serviceaccount --namespace kube-system tiller
